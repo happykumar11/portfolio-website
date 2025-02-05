@@ -1,0 +1,279 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation */
+nav {
+    background-color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    color: white;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/* Hero Section */
+.hero {
+    background: #3C3D37;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.cta-button {
+    background: #ff4500;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background: #e04300;
+}
+
+/* About Section */
+.about {
+    background: #697565;
+    padding: 60px 0;
+    display: grid;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center;     /* Center the content vertically */
+    height: 60vh;           /* Full screen height */
+    text-align: center;
+}
+
+.about .container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.profile-image {
+    width: 60px;
+    
+    
+    border-radius: 50%; /* Circular image */
+    
+    
+}
+
+.profile-image img {
+    
+    width: 300%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: 213px;
+    border: 5px solid #3C3D37;
+    
+}
+
+.about h2 {
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+.about p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 600px;
+    
+}
+
+/* Services Section */
+.services {
+    background: #3C3D37;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+h2{
+    margin-bottom: 50px;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.service-cards {
+    display: flex;
+    color: #697565;
+    justify-content: space-around;
+    gap: 20px;
+    
+}
+
+.service-card {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 20%;
+    text-align: center;
+    height: 200px;
+
+    
+}
+
+.service-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    font-size: 1.1rem;
+}
+
+/* Portfolio Section */
+.portfolio {
+    background: #697565;
+    color: #ECDFCC;
+    padding: 60px 0;
+}
+
+.portfolio-gallery {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.portfolio-item {
+    
+    text-align: center;
+}
+
+.portfolio-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.portfolio-item p {
+    color: #ECDFCC;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background: #697565;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.testimonial {
+    margin-bottom: 30px;
+}
+
+.testimonial p {
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+.testimonial span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Contact Section */
+.contact {
+    background: #ECDFCC;
+    padding: 60px 0;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact input, .contact textarea {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact button {
+    background: #007bff;
+    color: white;
+    padding: 15px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact button:hover {
+    background: #0056b3;
+}
+
+.contact p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
